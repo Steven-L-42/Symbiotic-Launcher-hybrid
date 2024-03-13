@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK-complete.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch.rule"
+		},
+		{
+			"file" : "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UltralightSDK"
+		],
+		"name" : "UltralightSDK"
+	}
+}

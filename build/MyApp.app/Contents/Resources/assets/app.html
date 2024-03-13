@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Symbiotic Launcher</title>
+    <link rel="stylesheet" href="css/l_style.css">
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="content">
+      <div class="logo"></div>
+      <div class="close" id="btnClose">X</div>
+      <div class="minimize">_</div>
+      <div class="form">
+        <h2>Symbiotic Launcher Login</h2>
+        <input placeholder="Username"></input>
+        <input placeholder="Password" type="password"></input>
+        <div class="btnRow">
+          <button class="btnLogin" id="btnLogin">LOGIN</button>
+          <button class="btnPurchase">PURCHASE</button>
+          <button class="btnTrial">12H TRIAL</button>
+        </div>
+      </div>
+    </div>
+    <script>
+
+      function loginProcess()
+      {
+        window.location.href = "mainForm.html";
+      }
+      document.getElementById('btnLogin').addEventListener("click", loginProcess);
+      // function closeWindow() {
+
+      //     closeWindowFromHTML();
+      // }
+      // test = document.getElementById("btnClose").addEventListener("click", closeWindow);
+  </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+# Target labels
+ UltralightSDK
+# Source files and their labels
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK-complete.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch.rule
+/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update.rule

@@ -1,0 +1,4 @@
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK.dir
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/MyApp.dir
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/edit_cache.dir
+/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/rebuild_cache.dir
