@@ -53,10 +53,10 @@ RM = /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/slippert/Desktop/ultralight-quick-start
+CMAKE_SOURCE_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/slippert/Desktop/ultralight-quick-start/build
+CMAKE_BINARY_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyApp.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/MyApp.dir/progress.make
 include CMakeFiles/MyApp.dir/flags.make
 
 CMakeFiles/MyApp.dir/src/MyApp.cpp.o: CMakeFiles/MyApp.dir/flags.make
-CMakeFiles/MyApp.dir/src/MyApp.cpp.o: /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp
+CMakeFiles/MyApp.dir/src/MyApp.cpp.o: /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp
 CMakeFiles/MyApp.dir/src/MyApp.cpp.o: CMakeFiles/MyApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyApp.dir/src/MyApp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyApp.dir/src/MyApp.cpp.o -MF CMakeFiles/MyApp.dir/src/MyApp.cpp.o.d -o CMakeFiles/MyApp.dir/src/MyApp.cpp.o -c /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyApp.dir/src/MyApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyApp.dir/src/MyApp.cpp.o -MF CMakeFiles/MyApp.dir/src/MyApp.cpp.o.d -o CMakeFiles/MyApp.dir/src/MyApp.cpp.o -c /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp
 
 CMakeFiles/MyApp.dir/src/MyApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyApp.dir/src/MyApp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp > CMakeFiles/MyApp.dir/src/MyApp.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp > CMakeFiles/MyApp.dir/src/MyApp.cpp.i
 
 CMakeFiles/MyApp.dir/src/MyApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyApp.dir/src/MyApp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp -o CMakeFiles/MyApp.dir/src/MyApp.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp -o CMakeFiles/MyApp.dir/src/MyApp.cpp.s
 
 CMakeFiles/MyApp.dir/src/main.cpp.o: CMakeFiles/MyApp.dir/flags.make
-CMakeFiles/MyApp.dir/src/main.cpp.o: /Users/slippert/Desktop/ultralight-quick-start/src/main.cpp
+CMakeFiles/MyApp.dir/src/main.cpp.o: /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/main.cpp
 CMakeFiles/MyApp.dir/src/main.cpp.o: CMakeFiles/MyApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyApp.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyApp.dir/src/main.cpp.o -MF CMakeFiles/MyApp.dir/src/main.cpp.o.d -o CMakeFiles/MyApp.dir/src/main.cpp.o -c /Users/slippert/Desktop/ultralight-quick-start/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyApp.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyApp.dir/src/main.cpp.o -MF CMakeFiles/MyApp.dir/src/main.cpp.o.d -o CMakeFiles/MyApp.dir/src/main.cpp.o -c /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/main.cpp
 
 CMakeFiles/MyApp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyApp.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slippert/Desktop/ultralight-quick-start/src/main.cpp > CMakeFiles/MyApp.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/main.cpp > CMakeFiles/MyApp.dir/src/main.cpp.i
 
 CMakeFiles/MyApp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyApp.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slippert/Desktop/ultralight-quick-start/src/main.cpp -o CMakeFiles/MyApp.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/main.cpp -o CMakeFiles/MyApp.dir/src/main.cpp.s
 
 # Object files for target MyApp
 MyApp_OBJECTS = \
@@ -109,11 +109,11 @@ MyApp.app/Contents/MacOS/MyApp: CMakeFiles/MyApp.dir/src/MyApp.cpp.o
 MyApp.app/Contents/MacOS/MyApp: CMakeFiles/MyApp.dir/src/main.cpp.o
 MyApp.app/Contents/MacOS/MyApp: CMakeFiles/MyApp.dir/build.make
 MyApp.app/Contents/MacOS/MyApp: CMakeFiles/MyApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyApp.app/Contents/MacOS/MyApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyApp.app/Contents/MacOS/MyApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyApp.dir/link.txt --verbose=$(VERBOSE)
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/ultralight-quick-start/build/SDK//bin /Users/slippert/Desktop/ultralight-quick-start/build/MyApp.app/Contents/MacOS
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/ultralight-quick-start/assets/ /Users/slippert/Desktop/ultralight-quick-start/build/MyApp.app/Contents/MacOS/../Resources/assets
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/ultralight-quick-start/build/SDK//resources /Users/slippert/Desktop/ultralight-quick-start/build/MyApp.app/Contents/MacOS/../Resources/assets/resources
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK//bin /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/MyApp.app/Contents/MacOS
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/assets/ /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/MyApp.app/Contents/MacOS/../Resources/assets
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E copy_directory /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK//resources /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/MyApp.app/Contents/MacOS/../Resources/assets/resources
 
 # Rule to build all files generated by this target.
 CMakeFiles/MyApp.dir/build: MyApp.app/Contents/MacOS/MyApp
@@ -124,6 +124,6 @@ CMakeFiles/MyApp.dir/clean:
 .PHONY : CMakeFiles/MyApp.dir/clean
 
 CMakeFiles/MyApp.dir/depend:
-	cd /Users/slippert/Desktop/ultralight-quick-start/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/slippert/Desktop/ultralight-quick-start /Users/slippert/Desktop/ultralight-quick-start /Users/slippert/Desktop/ultralight-quick-start/build /Users/slippert/Desktop/ultralight-quick-start/build /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/MyApp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/slippert/Desktop/Symbiotic-Launcher-hybrid /Users/slippert/Desktop/Symbiotic-Launcher-hybrid /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles/MyApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MyApp.dir/depend
 

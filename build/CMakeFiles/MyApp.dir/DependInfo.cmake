@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp" "CMakeFiles/MyApp.dir/src/MyApp.cpp.o" "gcc" "CMakeFiles/MyApp.dir/src/MyApp.cpp.o.d"
-  "/Users/slippert/Desktop/ultralight-quick-start/src/main.cpp" "CMakeFiles/MyApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyApp.dir/src/main.cpp.o.d"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp" "CMakeFiles/MyApp.dir/src/MyApp.cpp.o" "gcc" "CMakeFiles/MyApp.dir/src/MyApp.cpp.o.d"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/main.cpp" "CMakeFiles/MyApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyApp.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

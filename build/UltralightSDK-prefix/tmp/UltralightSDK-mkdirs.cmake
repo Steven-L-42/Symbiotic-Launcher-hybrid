@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/slippert/Desktop/ultralight-quick-start/build/SDK"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-build"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/tmp"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src"
-  "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-build"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/tmp"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src"
+  "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp${cfgdir}") # cfgdir has leading slash
 endif()

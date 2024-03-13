@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" ABSOLUTE)
-get_filename_component(directory "/Users/slippert/Desktop/ultralight-quick-start/build/SDK" ABSOLUTE)
+get_filename_component(filename "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" ABSOLUTE)
+get_filename_component(directory "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -53,10 +53,10 @@ RM = /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/slippert/Desktop/ultralight-quick-start
+CMAKE_SOURCE_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/slippert/Desktop/ultralight-quick-start/build
+CMAKE_BINARY_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build
 
 # Utility rule file for UltralightSDK.
 
@@ -76,52 +76,52 @@ CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'UltralightSDK'"
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E make_directory /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK-complete
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'UltralightSDK'"
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E make_directory /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles/UltralightSDK-complete
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-done
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'UltralightSDK'"
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'UltralightSDK'"
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure: UltralightSDK-prefix/tmp/UltralightSDK-cfgcmd.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'UltralightSDK'"
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'UltralightSDK'"
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download: UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-urlinfo.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'UltralightSDK'"
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'UltralightSDK'"
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -P /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'UltralightSDK'"
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
-	cd /Users/slippert/Desktop/ultralight-quick-start/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'UltralightSDK'"
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK && /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'UltralightSDK'"
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -Dcfgdir= -P /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/tmp/UltralightSDK-mkdirs.cmake
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'UltralightSDK'"
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -Dcfgdir= -P /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/tmp/UltralightSDK-mkdirs.cmake
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch-info.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'UltralightSDK'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'UltralightSDK'"
 	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update-info.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'UltralightSDK'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'UltralightSDK'"
 	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E echo_append
-	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
+	/Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
 
 UltralightSDK: CMakeFiles/UltralightSDK
 UltralightSDK: CMakeFiles/UltralightSDK-complete
@@ -144,6 +144,6 @@ CMakeFiles/UltralightSDK.dir/clean:
 .PHONY : CMakeFiles/UltralightSDK.dir/clean
 
 CMakeFiles/UltralightSDK.dir/depend:
-	cd /Users/slippert/Desktop/ultralight-quick-start/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/slippert/Desktop/ultralight-quick-start /Users/slippert/Desktop/ultralight-quick-start /Users/slippert/Desktop/ultralight-quick-start/build /Users/slippert/Desktop/ultralight-quick-start/build /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles/UltralightSDK.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/slippert/Desktop/Symbiotic-Launcher-hybrid /Users/slippert/Desktop/Symbiotic-Launcher-hybrid /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles/UltralightSDK.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/UltralightSDK.dir/depend
 

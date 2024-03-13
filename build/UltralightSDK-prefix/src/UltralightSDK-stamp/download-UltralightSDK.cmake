@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'")
+       file='/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'")
 
-  file("" "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" actual_value)
+  file("" "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-    /Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z
+    /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" STREQUAL "")
+if("/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/ultralight-ux/Ultralight/releases/download/v1.3.0/ultrali
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
+if(EXISTS "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
+  file='/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
+      file(REMOVE "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
+  file='/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
+    file(REMOVE "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
+   dst='/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z"
+        "${url}" "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "/Users/slippert/Desktop/ultralight-quick-start/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
+          file(REMOVE "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/UltralightSDK-prefix/src/ultralight-sdk-1.3.0-mac-x64.7z")
         else()
           message(STATUS "Downloading... done")
           return()

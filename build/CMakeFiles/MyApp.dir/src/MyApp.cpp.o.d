@@ -1,9 +1,9 @@
 CMakeFiles/MyApp.dir/src/MyApp.cpp.o: \
-  /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.cpp \
-  /Users/slippert/Desktop/ultralight-quick-start/src/MyApp.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/AppCore.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/App.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/Defines.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.cpp \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/src/MyApp.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/AppCore.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/App.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/Defines.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
@@ -47,8 +47,8 @@ CMakeFiles/MyApp.dir/src/MyApp.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/RefPtr.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Defines.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/RefPtr.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Defines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
@@ -128,31 +128,31 @@ CMakeFiles/MyApp.dir/src/MyApp.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Renderer.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Session.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/String.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/String8.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Renderer.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Session.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/String.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/String8.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/String16.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/String32.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/View.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/KeyEvent.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/KeyCodes.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/JavaScript.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JavaScript.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSBase.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSContextRef.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSObjectRef.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSValueRef.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/WebKitAvailability.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSStringRef.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/JavaScriptCore/JSTypedArray.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/MouseEvent.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/ScrollEvent.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/GamepadEvent.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/RenderTarget.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Bitmap.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Geometry.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/String16.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/String32.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/View.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/KeyEvent.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/KeyCodes.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/JavaScript.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JavaScript.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSBase.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSContextRef.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSObjectRef.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSValueRef.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/WebKitAvailability.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSStringRef.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/JavaScriptCore/JSTypedArray.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/MouseEvent.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/ScrollEvent.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/GamepadEvent.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/RenderTarget.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Bitmap.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Geometry.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/memory.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm \
@@ -169,15 +169,15 @@ CMakeFiles/MyApp.dir/src/MyApp.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bit \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Listener.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/platform/Surface.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/platform/Config.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/Monitor.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/Window.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/Overlay.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/JSHelpers.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/AppCore/Platform.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/platform/FontLoader.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/Buffer.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/platform/FileSystem.h \
-  /Users/slippert/Desktop/ultralight-quick-start/build/SDK/include/Ultralight/platform/Logger.h
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Listener.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/platform/Surface.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/platform/Config.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/Monitor.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/Window.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/Overlay.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/JSHelpers.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/AppCore/Platform.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/platform/FontLoader.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/Buffer.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/platform/FileSystem.h \
+  /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/SDK/include/Ultralight/platform/Logger.h

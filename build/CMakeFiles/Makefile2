@@ -54,10 +54,10 @@ RM = /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/slippert/Desktop/ultralight-quick-start
+CMAKE_SOURCE_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/slippert/Desktop/ultralight-quick-start/build
+CMAKE_BINARY_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/MyApp.dir/clean
 CMakeFiles/UltralightSDK.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UltralightSDK.dir/build.make CMakeFiles/UltralightSDK.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UltralightSDK.dir/build.make CMakeFiles/UltralightSDK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11 "Built target UltralightSDK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11 "Built target UltralightSDK"
 .PHONY : CMakeFiles/UltralightSDK.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UltralightSDK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UltralightSDK.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles 0
 .PHONY : CMakeFiles/UltralightSDK.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/UltralightSDK.dir/clean:
 CMakeFiles/MyApp.dir/all: CMakeFiles/UltralightSDK.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles --progress-num=1,2,3 "Built target MyApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles --progress-num=1,2,3 "Built target MyApp"
 .PHONY : CMakeFiles/MyApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyApp.dir/rule
 
 # Convenience name for target.

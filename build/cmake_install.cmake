@@ -1,4 +1,4 @@
-# Install script for directory: /Users/slippert/Desktop/ultralight-quick-start
+# Install script for directory: /Users/slippert/Desktop/Symbiotic-Launcher-hybrid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/slippert/Desktop/ultralight-quick-start/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /Users/slippert/.brew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/slippert/Desktop/ultralight-quick-start
+CMAKE_SOURCE_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/slippert/Desktop/ultralight-quick-start/build
+CMAKE_BINARY_DIR = /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles /Users/slippert/Desktop/ultralight-quick-start/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/ultralight-quick-start/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slippert/Desktop/Symbiotic-Launcher-hybrid/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
