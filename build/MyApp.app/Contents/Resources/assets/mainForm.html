@@ -1,127 +1,128 @@
 <html>
-  <head>
-    <title>Symbiotic Launcher</title>
-    <link rel="stylesheet" href="css/m_style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  </head>
-  <body>
+	<head>
+		<title>Symbiotic Launcher</title>
+		<link rel="stylesheet" href="css/m_style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="cursor small"></div>
+		<div class="grid">
+			<div class="topLeft">
+				<div class="logo"></div>
+			</div>
+			<div class="topRight">
+				<div class="tr_top">
+					<div class="txtClass">
+						<span class="txt">Server: </span>
+						<span class="txt active">Online</span>
+					</div>
+					<div class="txtClass">
+						<span class="txt">Ping: </span>
+						<span class="txt active">Stable</span>
+					</div>
+					<div class="txtClass">
+						<span class="txt">Users Online: </span>
+						<span class="txt online">116</span>
+					</div>
+					<div class="txtClass">
+						<span class="txt refresh">last refresh (13.03.2024 11:11:00)</span>
+						<a class="fa fa-refresh active" aria-hidden="true"></a>
+					</div>
+					<div class="close" onclick="OnCloseClick()">X</div>
+					<div class="minimize">_</div>
+				</div>
+				<div class="tr_bot">
+					<a class="btn"><span>NEWS</span><div class="underline"></div></a>
+					<a class="btn"><span>DISCORD</span><div class="underline"></div></a>
+					<a class="btn"><span>WEBSITE</span><div class="underline"></div></a>
+					<a class="btn"><span>ADMIN</span><div class="underline"></div></a>
+					<div class="btnColumn">
+						<span class="txt">VALID FOR: 9999 days and 24h 59m</span>
+						<div class="btnRow">
+							<button class="btnRecharge">RECHARGE</button>
 
-    <div class="grid">
-      <div class="topLeft">
-        <div class="logo"></div>
-      </div>
-      <div class="topRight">
-        <div class="tr_top">
-          <div class="txtClass">
-            <span class="txt">Server: </span>
-            <span class="txt active">Online</span>
-          </div>
+							<button class="btnGlocke">
+								<i class="fa fa-bell-o yellow" aria-hidden="true"></i>
+							</button>
+							<button class="btnLogout" id="btnLogout"><i class="fa fa-sign-out"
+									aria-hidden="true"></i></button>
+							<button class="btnUser">Hi, ShiiikK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottomLeft">
+				<div class="btnApp"><img src="images/DiabloFourIcon.png"></div>
+				<div class="btnApp"><img src="images/LostArkIcon.png"></div>
+				<div class="btnApp"><img src="images/wow.png"></div>
+				<div class="btnApp"><img src="images/gta5.png"></div>
+				<div class="btnApp"><img src="images/valorant.png"></div>
+			</div>
+			<div class="bottomRight" id="bottomRight">
+				<span class="newsTitle">Symbiotic News</span>
+				<div class="news">
+					<div class="newsBar">Diablo 4: Beta Release</div>
+					<div class="newsMain">Lorem ipsum dolor sit amet, consetetur
+						sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+						et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+						accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+						no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+						dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+						tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+						voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+						Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+						dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.
+						<br>
+						<br>
+						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+						molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+						vero eros et accumsan et iusto odio dignissim qui blandit praesent
+						luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat. </div>
+				</div>
+				<div class="news">
+					<div class="newsBar">Diablo 4: Beta Release</div>
+					<div class="newsMain">Lorem ipsum dolor sit amet, consetetur
+						sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+						et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+						accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+						no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+						dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+						tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+						voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+						Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+						dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.
+						<br>
+						<br>
+						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+						molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+						vero eros et accumsan et iusto odio dignissim qui blandit praesent
+						luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat. </div>
+				</div>
+			</div>
+		</div>
 
-          <div class="txtClass">
-            <span class="txt">Ping: </span>
-            <span class="txt active">Stable</span>
-          </div>
-          <div class="txtClass">
-            <span class="txt">Users Online: </span>
-            <span class="txt online">116</span>
-          </div>
-          <div class="txtClass">
-            <span class="txt refresh">last refresh (13.03.2024 11:11:00)</span>
-            <a class="fa fa-refresh active" aria-hidden="true"></a>
-          </div>
-          <div class="close" id="btnClose">X</div>
-          <div class="minimize">_</div>
-        </div>
-        <div class="tr_bot">
-          <a class="btn">NEWS</a>
-          <a class="btn">DISCORD</a>
-          <a class="btn">WEBSITE</a>
-          <a class="btn">ADMIN</a>
-          <div class="btnColumn">
-            <span class="txt">VALID FOR: 9999 days and 24h 59m</span>
-            <div class="btnRow">
-              <button class="btnRecharge">RECHARGE</button>
+		<script>
 
-              <button class="btnGlocke">
-                <i class="fa fa-bell-o yellow" aria-hidden="true"></i>
-              </button>
-              <button class="btnLogout" id="btnLogout"><i class="fa fa-sign-out"
-                  aria-hidden="true"></i></button>
-              <button class="btnUser">Hi, ShiiikK</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bottomLeft">
-        <div class="btnApp"><img src="images/DiabloFourIcon.png"></div>
-        <div class="btnApp"><img src="images/LostArkIcon.png"></div>
-        <div class="btnApp"><img src="images/wow.png"></div>
-        <div class="btnApp"><img src="images/gta5.png"></div>
-        <div class="btnApp"><img src="images/valorant.png"></div>
-      </div>
-      <div class="bottomRight" id="bottomRight">
-        <span class="newsTitle">Symbiotic News</span>
-        <div class="news">
-          <div class="newsBar">Diablo 4: Beta Release</div>
-          <div class="newsMain">Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-            takimata sanctus est Lorem ipsum dolor sit amet.
-            <br>
-            <br>
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui blandit praesent
-            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. </div>
-        </div>
-        <div class="news">
-          <div class="newsBar">Diablo 4: Beta Release</div>
-          <div class="newsMain">Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-            takimata sanctus est Lorem ipsum dolor sit amet.
-            <br>
-            <br>
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui blandit praesent
-            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-    function logoutProcess()
-      {
-        window.location.href = "app.html";
-      }
-      document.getElementById('btnLogout').addEventListener("click", logoutProcess);
-     </script>
-  </body>
+	function logoutProcess()
+	{
+		window.location.href = "loginForm.html";
+	}
+	document.getElementById('btnLogout').addEventListener("click", logoutProcess);
+	</script>
+		<script src="js/moveCursor.js"></script>
+	</body>
 </html>

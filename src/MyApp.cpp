@@ -31,7 +31,7 @@ MyApp::MyApp()
   ///
   /// Load a page into our overlay's View
   ///
-  overlay_->view()->LoadURL("file:///app.html");
+  overlay_->view()->LoadURL("file:///loginForm.html");
 
   ///
   /// Register our MyApp instance as an AppListener so we can handle the
@@ -80,11 +80,7 @@ void MyApp::OnUpdate()
   ///
   /// You should update any app logic here.
   ///
-}
-
-void MyApp::OnClose(ultralight::Window *window)
-{
-  app_->Quit();
+    // window_->MoveTo(mousePos.x, mousePos.y);
 }
 
 void MyApp::OnResize(ultralight::Window *window, uint32_t width, uint32_t height)
@@ -97,6 +93,11 @@ void MyApp::OnResize(ultralight::Window *window, uint32_t width, uint32_t height
   overlay_->Resize(width, height);
 }
 
+void MyApp::OnClose(ultralight::Window *window)
+{
+  app_->Quit();
+}
+
 void MyApp::OnFinishLoading(ultralight::View *caller,
                             uint64_t frame_id,
                             bool is_main_frame,
@@ -104,18 +105,6 @@ void MyApp::OnFinishLoading(ultralight::View *caller,
 {
   ///
   /// This is called when a frame finishes loading on the page.
-  ///
-}
-
-void MyApp::OnDOMReady(ultralight::View *caller,
-                       uint64_t frame_id,
-                       bool is_main_frame,
-                       const String &url)
-{
-  ///
-  /// This is called when a frame's DOM has finished loading on the page.
-  ///
-  /// This is the best time to setup any JavaScript bindings.
   ///
 }
 
@@ -139,4 +128,60 @@ void MyApp::OnChangeTitle(ultralight::View *caller,
   /// We update the main window's title here.
   ///
   window_->SetTitle(title.utf8().data());
+}
+
+
+// This callback will be bound to 'OnButtonClick()' on the page.
+JSValueRef MyApp::OnCloseClick(JSContextRef ctx, JSObjectRef function,
+                               JSObjectRef thisObject, size_t argumentCount,
+                               const JSValueRef arguments[], JSValueRef *exception)
+{
+  exit(EXIT_SUCCESS);
+  return JSValueMakeNull(ctx);
+}
+
+// // This callback will be bound to 'OnButtonClick()' on the page.
+// JSValueRef OnExample(JSContextRef ctx, JSObjectRef function,
+//   JSObjectRef thisObject, size_t argumentCount,
+//   const JSValueRef arguments[], JSValueRef* exception) {
+
+//     app_->Quit();
+//   const char* str =
+//     "document.getElementById('result').innerText = 'Ultralight rocks!'";
+
+//   // Create our string of JavaScript
+//   JSStringRef script = JSStringCreateWithUTF8CString(str);
+
+//   // Execute it with JSEvaluateScript, ignoring other parameters for now
+//   JSEvaluateScript(ctx, script, 0, 0, 0, 0);
+
+//   // Release our string (we only Release what we Create)
+//   JSStringRelease(script);
+
+//   return JSValueMakeNull(ctx);
+// }
+
+// Use LoadListener::OnDOMReady to wait for the DOM to load.
+void MyApp::OnDOMReady(View *caller,
+                       uint64_t frame_id,
+                       bool is_main_frame,
+                       const String &url)
+{
+
+  // Acquire the JS execution context for the current page.
+  auto scoped_context = caller->LockJSContext();
+
+  // Typecast to the underlying JSContextRef.
+  JSContextRef ctx = (*scoped_context);
+
+  // Create a JavaScript String containing the name of our callback.
+  JSStringRef name = JSStringCreateWithUTF8CString("OnCloseClick");
+  JSObjectRef func = JSObjectMakeFunctionWithCallback(ctx, name,
+                                                      OnCloseClick);
+  // Get the global JavaScript object (aka 'window')
+  JSObjectRef globalObj = JSContextGetGlobalObject(ctx);
+  JSObjectSetProperty(ctx, globalObj, name, func, 0, 0);
+
+  // Release the JavaScript String we created earlier.
+  JSStringRelease(name);
 }

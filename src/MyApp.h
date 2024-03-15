@@ -46,6 +46,11 @@ public:
 
   virtual void closeWindowFromHTML();
 
+  static JSValueRef OnCloseClick(JSContextRef ctx, JSObjectRef function,
+  JSObjectRef thisObject, size_t argumentCount,
+  const JSValueRef arguments[], JSValueRef* exception);
+
+
 protected:
   RefPtr<App> app_;
   RefPtr<Window> window_;
